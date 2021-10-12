@@ -1,0 +1,25 @@
+{
+  "name": "mcliniccare",
+  "version": "1.0.0",
+  "description": "Global Health",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pisonpeakgroup/mcliniccare.git"
+  },
+  "keywords": [
+    "mclinic",
+    "care",
+    "global",
+    "health"
+  ],
+  "author": "Ubine Musa Joseph",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pisonpeakgroup/mcliniccare/issues"
+  },
+  "homepage": "https://github.com/pisonpeakgroup/mcliniccare#readme"
+}
