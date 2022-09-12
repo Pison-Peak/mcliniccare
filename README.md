@@ -1,4 +1,10 @@
-# CRUD Operations
+# PROJECT MANAGEMENT CRUD Operations
+Depending on the complexity of the project, different models, approaches, and management tools may need to be used to ensure success.
+
+Project management refers to the application of processes, methods, knowledge, skills, and experiences that are required to achieve objectives.
+
+In it are different phases of project management. These include management tools and models for application.
+
 
 CRUD stands for create, read, update and delete. These are the four basic functions of persistent storage. Also, each letter in the acronym can refer to all functions executed in relational database applications and mapped to a standard HTTP method, SQL statement or DDS operation.
 
