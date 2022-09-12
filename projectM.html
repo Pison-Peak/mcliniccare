@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MClinic Project-Site</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+	
+</head>
+<body style="background-image: url('images/backdrop.jpg');background-position: center;background-repeat: no-repeat; background-size: cover;">
+	<center>
+	<div class="wrap-form">
+	<div>
+		<h1 class="title" align="center">Project Management & Data</h1>
+	</div>
+
+	<br>
+	<div>
+	<table >
+		<tr>		
+			<td> <!-- CRUD OPERATIONS-->
+				<form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off" class="input-form" name="StudentForm">
+					<div>
+						<label>Project Number </label><label class="validation-error hide" id="RollValidationError">*Input exact 6 - digits number.</label>
+						<input type="text" name="roll" id="roll" name="roll" >
+					</div>
+					<br>
+					<div>
+						<label>Project Name </label><label class="validation-error hide" id="NameValidationError">*Input only Alphabets.</label>
+						<input type="text" name="name" id="name" name="name" >
+					</div>
+					<br>
+					<div>
+						<label>ProjectType</label><br>
+						<select id="gender" name="gender" >
+							<option>International</option>
+							<option>National</option>
+							<option>Other</option>
+						</select>
+					</div>
+					<br>
+					<div>
+						<label>Standard: project conceptualisation and defination</label><label class="validation-error hide" id="NameValidationError">*Input only Alphabets.</label>
+						<input type="text" name="name" id="name" name="name" >
+					</div>
+					<br>
+					<div>
+						<label>Project Start Date</label><br>
+						<input type="date" name="dob" id="dob" name="dob">
+					</div>
+					<div>
+						<label>Project End Date</label><br>
+						<input type="date" name="dob" id="dob" name="dob">
+					</div>
+					<br>
+					<div>
+						<label>Project Goal </label><label class="validation-error hide" id="NameValidationError">*Input only Alphabets.</label>
+						<input type="text" name="name" id="name" name="name" >
+					</div>
+					<br>
+					<br>
+					<div>
+						<label>MACRO investigating tools</label><br>
+						<select id="gender" name="gender" >
+							<option>PESTLE</option>
+							<option>Fishbone</option>
+							<option>Root cause analysis using ‘5 whys’</option>
+							<option>Force field analysis</option>
+							<option>SWOT analysis</option>
+							<option>GANTT charts</option>
+							<option>CRM – Critical Path Method</option>
+							<option>Risk management matrices</option>
+							<option>Communication plans</option>
+							<option>Stakeholder analysis</option>
+							<option>Combination of tools from the list</option>
+							<option>Other</option>
+						</select>
+					</div>
+					<br>
+					<br>
+					<br>
+					<center>
+						<button>
+								Submit
+						</button>
+					</center>
+										
+				</form>
+			</td> 
+		</tr>
+	</table>
+</div>
+</div>
+<br>
+
+<div style="background-color: black;">
+	<br>
+	<br>
+</div>
+
+	<div id="ip" style="background-color: #f0f0f0;">
+	<div>
+		<h1 class="title" align="center">Table Of Records</h1>
+	</div>
+	<table>
+		<tr>
+			<td> <!-- TABLE OF RECORDS-->
+				<table class="list" id="studentlist" style="border: 1px dashed black;width: 900px;">
+					<thead>
+						<tr>
+							<th style="width: 150px">Project Number</th>
+							<th style="width: 250px;">Project Name</th>
+							<th style="width: 120px">ProjectType</th>
+							<th style="width: 100px">Standard: project conceptualisation and defination.</th>
+							<th style="width: 160px">Project Start Date</th>
+							<th style="width: 160px">Project End Date</th>
+							<th style="width: 120px">Operation</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</center>
+<div style="background-color: #f0f0f0;">	
+	<br>
+	<br>
+</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
